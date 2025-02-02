@@ -1,0 +1,99 @@
+.header{
+    padding: 3px;
+    text-align: center;
+    background:rgb(46, 252, 252);
+    color: black;
+    font-size: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: chartreuse;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+.navbar a:hover{
+    background-color: black;
+}
+    .navbar li{
+        float: left;
+    }
+.home1{
+    background-image:url("janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+    height: 800px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+#Browse_books{
+    margin: 10px 10px 10px 10px;
+    padding: 5px 10px 7px 7px;
+    background-color: chartreuse;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+
+    
+}
+#Browse_books:hover{
+    background-color: aqua;
+
+}
+#title{
+    border-style: solid;
+    border-color: darkgreen;
+    border-width:0px 0px 10px 0px;
+    background:rgb(46, 252, 252);
+
+}
+.images{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.images img{
+    height: 25vw;
+    width: 20vw;
+    margin: 10px 10px;
+}
+.images img:hover{
+    box-shadow: 10px 10px 5px black;
+}
+.images h3{
+    text-align: center;
+    font-size: larger;
+}
+#Categories h2{
+    background:rgb(46, 252, 252);
+}
+#Reviews h2{
+    background:rgb(46, 252, 252);
+}
+body{
+    background-color: bisque;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer a:hover{
+    color: black;
+    background-color: white;
+}
